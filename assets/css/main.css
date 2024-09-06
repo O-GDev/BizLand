@@ -177,10 +177,16 @@ h6 {
   }
 }
 @media (max-width:575px) {
-  .cont{
+  .header .branding .container .cont{
     display: none;
   }
 }
+@media (min-width:575px) {
+  .header .branding .container .cont{
+    display: flex;
+  }
+}
+
 
 .header .topbar .contact-info i a {
   line-height: 0;
