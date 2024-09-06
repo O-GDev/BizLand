@@ -176,6 +176,11 @@ h6 {
     font-size: 13px;
   }
 }
+@media (max-width:575px) {
+  .cont{
+    display: none;
+  }
+}
 
 .header .topbar .contact-info i a {
   line-height: 0;
